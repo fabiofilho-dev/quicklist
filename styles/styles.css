@@ -1,0 +1,119 @@
+body {
+  height: 32.5rem;
+  /* defininfo o tamanho do body*/
+  margin: 0rem;
+  /* definindo a margin para 0*/
+  height: 100vh;
+  /* Faz com que o body ocupe a tela inteira */
+  background-color: var(--bg-primary);
+  /*cor do body com uma variavel*/
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+#logo {
+  display: none;
+  /* Oculta por padrão */
+  gap: 0.85rem;
+  /* espaço entre os elementos da div */
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
+  padding: 0.8rem;
+
+
+}
+
+.back {
+  display: flex;
+  font-size: 1rem;
+  gap: 0.2rem;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 4.87rem;
+
+  .a {
+    color: #CA3884;
+  }
+
+
+
+  .icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    filter: invert(34%) sepia(64%) saturate(728%) hue-rotate(280deg);
+
+    /* invert(34%) → Inverte parcialmente as cores (34%). Isso ajuda a transformar a cor original em uma base mais próxima do tom desejado. 
+  
+  sepia(64%) → Dá um tom amarelado,
+    ajudando a aproximar a cor da desejada. 
+    
+    saturate(728%) → Aumenta a saturação da cor para ficar mais intensa. 
+    
+    hue-rotate(310deg) → Gira a matiz da cor para chegar no tom exato de #CA3884 */
+
+  }
+
+}
+
+.h2 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.add {
+  display: grid;
+  width: 20.37rem;
+  height: 4.75rem;
+  margin-left: 1.6rem;
+  margin-top: 2.75rem;
+  gap: 1rem;
+  font: var(--label);
+}
+
+.new-item {
+
+  font-size: .9rem;
+  /* Aumenta o tamanho da fonte */
+
+  font-weight: 500;
+  /* Deixa o texto em negrito (opcional) */
+  display: grid;
+  height: 2.5rem;
+  row-gap: .7rem;
+  border-radius: .5rem;
+  margin: 2.75rem 2rem 2.5rem 2rem;
+}
+
+
+
+
+.btn {
+  height: 2.5rem;
+  border-radius: .5rem;
+  background-color: #CA3884;
+  font: var(--link);
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.form {
+  display: grid;
+  row-gap: 1.5rem;
+  border: solid 1px black;
+}
+
+label {
+  font: var(--label);
+  width: 10rem;
+  height: 3.56rem;
+  border: solid 1px blue;
+}
+
+input{
+  font: var(--label);
+}
